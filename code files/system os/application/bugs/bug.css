@@ -10,3 +10,15 @@ html {
 a {
     cursor: url('../../../cursorr.png'), auto;
 }
+#img-back {
+    position: absolute;
+    right: 2px;
+    top: 2px;
+}
+#text-title {
+    font-family: consolas;
+    text-align: center;
+}
+div.back {
+    background-color: gray;
+}
