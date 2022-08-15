@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div.taskbar {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(82, 82, 82);
+}
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+img {
+    height: 60px;
+    width: 60px;
+    margin: 1;
+    padding: 1;
+}
+a {
+    color: black;
+    font-size: 17px;
+    cursor: default;	
+}
+#img-shut {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 1px;
+}
+#start {
+    position: absolute;
+    top: 1px;
+    
+}
+div.tagging {
+    font-size: 20px;
+    position: absolute;
+    bottom: 0%;
+}
+

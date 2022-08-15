@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url('../images/Presentation1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*filter: blur(4px);*/
+}
+a {
+    color: rgb(31, 31, 31);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    text-underline-offset: none;
+    cursor: url("../cursorr.png"), auto;
+}
+a:hover {
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    cursor: url("../cursorr.png"), auto;
+}
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(40, 40, 40);
+    word-spacing: 1%;
+    text-align: center;
+    font-size: 30px;
+    cursor: url("../cursorr.png"), auto;
+}
+html {
+    height: 100%;
+    width: 100%;
+    cursor: url("../cursorr.png"), auto;
+}
+div.code {
+    background-color: rgb(42, 37, 37);
+    font-size: 16px;
+    font-weight: 200;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    height: 20px;
+    width: 180px;
+    color: rgb(135, 135, 135);
+    font-family: consolas;
+    border-radius: 8px;
+    border-color: aliceblue;
+    border: 1px;
+}
+div.code:hover {
+    background-color: rgb(42, 37, 37);
+    font-size: 16px;
+    font-weight: 200;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    height: 20px;
+    width: 180px;
+    color: rgb(135, 135, 135);
+    font-family: consolas;
+    border-radius: 8px;
+    border-color: aliceblue;
+    border: 1px;
+}
