@@ -1,3 +1,4 @@
+<!--Main Kernel file-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,14 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fedo Webtop</title>
     <link rel="stylesheet" href="../css/kernel.css">
-    <noscript>This application needs Javascript to run.</noscript>
+    <noscript>
+        <body>
+          <meta http-equiv="refresh" content="0; url=error.html">
+        </body>
+    </noscript>
 </head>
 <body>
     <div class="main">
         <div class="task-bar">
             <section id="icon-center">
                 <a href="start.html">
-                    <img src="../images/pngegg.png" alt="start" id="icon-start" width="30px" height="30px" title="start">
+                    <img src="../images/Windows 11 Icon.png" alt="start" id="icon-start" width="25px" height="25px" title="start">
                 </a>
             </section>
         </div>
@@ -25,8 +30,10 @@
                 <a href="application/about/about.html" title="start">about</a>
             </div>
             <div class="user-app">
-                <!--update app here-->
-                <a href="application/bugs/bug.htm">update fixes</a>
+                <a href="application/bugs/bug.htm">
+                    <img src="../images/repair.png" alt="fixes" id="fixes-image"><br>
+                </a>
+                <a href="application/bugs/bug.htm" id="fixes-link">update fixes</a>
             </div>
         </div>
     </div> 
